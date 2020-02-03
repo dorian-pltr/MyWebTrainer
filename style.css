@@ -46,11 +46,11 @@ em
 }
 .imageFlottanteGauche
 {
- float: right;
+    float: right;
 }
 .imageFlottanteDroite
 {
- float: left;
+    float: left;
 }
 .textSousFlottant
 {
