@@ -1,0 +1,58 @@
+/*
+style.css
+---------------
+
+par Dorian PELLETIER
+*/
+*
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1
+{
+    font-family:'Arial Narrow Bold', sans-serif, sans-serif;
+    background-color:black;
+    color:#f77031;
+    text-align: center;
+    font-size:3em;
+}
+h2
+{
+    text-align: center;
+}
+h3
+{
+    background-color:#f77031;
+    color:white;
+    text-align: center;
+}
+h4
+{
+    text-decoration: underline;
+    color:orangered;
+}
+p
+{
+    font-size:1em;
+}
+strong
+{
+    color:darkorange;
+}
+em
+{
+    color:grey;
+    text-align: justify;
+}
+.imageFlottanteGauche
+{
+ float: right;
+}
+.imageFlottanteDroite
+{
+ float: left;
+}
+.textSousFlottant
+{
+    clear: both;
+}
