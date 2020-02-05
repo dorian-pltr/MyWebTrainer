@@ -5,80 +5,57 @@ style.css
 par Dorian PELLETIER
 */
 
-*
-{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-body
-{
-    Background: url("images/haltere.png") repeat;
-    Background-color:#e7f3fa;
+body {
+  background: url("images/haltere.png") repeat;
+  background-color: #e7f3fa;
 }
-
-h1
-{
-    font-family:'Arial Narrow Bold', sans-serif, sans-serif;
-    background-color:rgba(0, 0, 0, 0.85);
-    color:orangered;
-    text-align: center;
-    font-size:3em;
+h1 {
+  font-family: "Arial Narrow Bold", sans-serif, sans-serif;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 20px 0px 20px 2px; /* haut gauche bas droit */
+  color: orangered;
+  text-align: center;
+  font-size: 3em;
 }
-
-h2
-{
-    text-align: center;
+h2 {
+  text-align: center;
 }
-
-h3
-{
-    background-color:#f77031c9;
-    color:white;
-    text-align: center;
+h3 {
+  background-color: #f77031c9;
+  padding: 10px 0px 10px 0px; /* haut gauche bas droit */
+  color: white;
+  text-align: center;
 }
-
-h4
-{
-    text-decoration: underline;
-    color:orangered;
+h4 {
+  text-decoration: underline;
+  color: orangered;
 }
-
-p
-{
-    font-size:1em;
+p {
+  font-size: 1em;
 }
-
-strong
-{
-    color:rgb(255, 102, 0);
+strong {
+  color: rgb(255, 102, 0);
 }
-
-em
-{
-    color:#464646;
-    text-align: justify;
+em {
+  color: #1f1f1f;
+  text-align: justify;
 }
-
-.section
-{
-    Background-color:#727272c5;
-    padding: 0px 10px 10px 10px; /* haut gauche bas droit */
-    overflow:hidden; /* la section se poursuit jusqu'à la fin de l'image */
+.section {
+  background-color: #414141c5;
+  padding: 0px 10px 10px 10px; /* haut gauche bas droit */
+  overflow: hidden; /* la section se poursuit jusqu'à la fin de l'image */
 }
-
-.imageFlottanteGauche
-{
-    float: left;
-    padding: 0px 10px 0px 0px; /* haut gauche bas droit */
+.imageFlottanteGauche {
+  float: left;
+  padding: 0px 10px 0px 0px; /* haut gauche bas droit */
 }
-
-.imageFlottanteDroite
-{
-    float: right;
-    padding: 0px 0px 0px 10px; /* haut gauche bas droit */
+.imageFlottanteDroite {
+  float: right;
+  padding: 0px 0px 0px 10px; /* haut gauche bas droit */
 }
-
-.textSousFlottant
-{
-    clear: both;
+.textSousFlottant {
+  clear: both;
 }
