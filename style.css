@@ -30,6 +30,7 @@ h2 {
 }
 h3 {
   background-color: #f77031c9;
+  box-shadow: 4px 4px 5px darkgray;
   border-radius: 10px;
   padding: 10px 0px 10px 0px; /* haut droite bas gauche */
   color: black;
