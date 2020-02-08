@@ -8,6 +8,9 @@ par Dorian PELLETIER
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+h3 a:visited {
+  color: black;
+}
 body {
   background: url("images/haltere.png") repeat;
   background-color: #e7f3fa;
@@ -15,7 +18,9 @@ body {
 h1 {
   font-family: "Arial Narrow Bold", sans-serif, sans-serif;
   background-color: rgba(0, 0, 0, 0.85);
-  padding: 20px 0px 20px 2px; /* haut gauche bas droit */
+  box-shadow: 8px 8px 5px darkgray;
+  border-radius: 10px;
+  padding: 20px 0px 20px 2px; /* haut droite bas gauche */
   color: orangered;
   text-align: center;
   font-size: 3em;
@@ -25,36 +30,40 @@ h2 {
 }
 h3 {
   background-color: #f77031c9;
-  padding: 10px 0px 10px 0px; /* haut gauche bas droit */
-  color: white;
+  border-radius: 10px;
+  padding: 10px 0px 10px 0px; /* haut droite bas gauche */
+  color: black;
   text-align: center;
 }
 h4 {
   text-decoration: underline;
   color: orangered;
+  text-shadow: 2px 2px 5px black;
 }
 p {
   font-size: 1em;
 }
 strong {
   color: rgb(255, 102, 0);
+  text-shadow: 2px 2px 5px black;
 }
 em {
   color: #1f1f1f;
   text-align: justify;
 }
-.section {
+.article {
   background-color: #414141c5;
-  padding: 0px 10px 10px 10px; /* haut gauche bas droit */
-  overflow: hidden; /* la section se poursuit jusqu'à la fin de l'image */
+  border-radius: 10px;
+  padding: 0px 10px 10px 10px; /* haut droite bas gauche */
+  overflow: auto; /* l'article se poursuit jusqu'à la fin de l'image */
 }
 .imageFlottanteGauche {
   float: left;
-  padding: 0px 10px 0px 0px; /* haut gauche bas droit */
+  padding-right: 10px;
 }
 .imageFlottanteDroite {
   float: right;
-  padding: 0px 0px 0px 10px; /* haut gauche bas droit */
+  padding-left: 10px;
 }
 .textSousFlottant {
   clear: both;
