@@ -35,6 +35,7 @@ h2 {
 }
 h3 {
   background-color: #f77031c9;
+  box-shadow: 4px 4px 5px darkgray;
   border-radius: 10px;
   padding: 10px 0px 10px 0px; /* haut droite bas gauche */
   color: black;
@@ -58,6 +59,7 @@ em {
 }
 article {
   background-color: #414141c5;
+  box-shadow: 4px 4px 5px darkgray;
   border-radius: 10px;
   padding: 0px 10px 10px 10px; /* haut droite bas gauche */
   overflow: auto; /* l'article se poursuit jusqu'à la fin de l'image */
