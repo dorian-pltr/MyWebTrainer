@@ -1,8 +1,12 @@
 document.addEventListener("DOMContentLoaded", function (event) { //on attend que le DOM soit chargé pour exécuter notre script
-    var elt = document.getElementsByClassName("navigation");
-    elt[0].style.color = "black";
-    elt[1].style.color = "black";
-    for (var i = 2; i < elt.length; i++) {
-        elt[i].style.color = "orangered";
+
+    //colorer les raccourcis de navigation
+    var navigation = document.getElementsByClassName("navigation");
+    for (var i = 0; i < 5; i++) {
+        navigation[i].style.color = "black";
     }
+    for (var i = 5; i < navigation.length; i++) {
+        navigation[i].style.color = "orangered";
+    }
+
 });
