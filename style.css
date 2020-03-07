@@ -19,10 +19,6 @@ strong {
   font-style: bold;
 }
 
-em {
-  font-size: 1em;
-  font-style: italic;
-}
 
 article em {
   color: #1f1f1f;
@@ -43,11 +39,12 @@ h1 {
   /* haut droite bas gauche */
   color: orangered;
   text-align: center;
-  font-size: 3em;
+  font-size: 4em;
 }
 
 h2 {
   text-align: center;
+  font-size: 2em;
 }
 
 h3 {
@@ -58,6 +55,7 @@ h3 {
   /* haut droite bas gauche */
   text-align: center;
   text-decoration: none;
+  font-size: 1.5em;
 }
 
 h3 a:visited,
@@ -71,6 +69,7 @@ h4 {
   text-decoration: underline;
   color: rgb(255, 102, 0);
   text-shadow: 2px 2px 5px black;
+  font-size: 1.2em;
 }
 
 article {
