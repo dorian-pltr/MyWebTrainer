@@ -19,6 +19,11 @@ strong {
   font-style: bold;
 }
 
+em {
+  font-size: 1em;
+  font-style: italic;
+}
+
 article em {
   color: #1f1f1f;
   text-align: justify;
