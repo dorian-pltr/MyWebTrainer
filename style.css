@@ -15,8 +15,8 @@ body {
 }
 
 strong {
-  color: rgb(255, 102, 0);
-  text-shadow: 2px 2px 5px black;
+  font-size: 1em;
+  font-style: bold;
 }
 
 article em {
@@ -64,7 +64,7 @@ h3 a:active {
 
 h4 {
   text-decoration: underline;
-  color: orangered;
+  color: rgb(255, 102, 0);
   text-shadow: 2px 2px 5px black;
 }
 
@@ -105,5 +105,5 @@ footer {
 
 #choixMateriel,
 #choixFrequence {
-  color: orange;
+  font-style: italic;
 }
