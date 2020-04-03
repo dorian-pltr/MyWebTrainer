@@ -1,0 +1,22 @@
+{
+	"name": "mywebtrainer",
+	"version": "1.0.0",
+	"description": "Votre coach partout, tout le temps!",
+	"main": "index.html",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Odranium/MyWebTrainer.git"
+	},
+	"author": "Dorian PELLETIER",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Odranium/MyWebTrainer/issues"
+	},
+	"homepage": "https://github.com/Odranium/MyWebTrainer#readme",
+	"devDependencies": {
+		"eslint": "^6.8.0"
+	}
+}
