@@ -1,9 +1,13 @@
 # MyWebTrainer
 Votre coach partout, tout le temps!
 
-Ce projet est réalisé en  HTML/CSS, j'ai ensuite commencé à modifier le DOM à l'aide de JavaScript.
-Je me suis rapidement rendu compte de la complexité de ce choix, j'entreprend donc une refonte de mon projet.
+Créer mon programme sportif - Gérer mon alimentation - Suivre l'évolution de mon poids
 
-J'ai donc choisi de me former à la bibliothèque ReactJS et je travaille actuellement au développement de la partie "Créer mon programme".
+Ce projet est initialement réalisé en  HTML/CSS, j'ai ensuite modifié le DOM à l'aide de JavaScript afin de le rendre interactif.
+Je me suis rapidement rendu compte que cela rendait mon code redondant et difficile à comprendre.
 
-Dorian
+J'ai donc décidé de me former à ReactJS. C'est une librairie JavaScript qui permet de créer des interfaces utilisateurs interactives, elle répond donc parfaitement aux besoins de ce projet.
+
+Je développe actuellement la partie "Créer mon programme" à l'aide de cette librairie.
+
+Dorian PELLETIER.
