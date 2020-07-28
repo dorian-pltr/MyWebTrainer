@@ -10,4 +10,4 @@ J'ai donc décidé de me former à ReactJS. C'est une librairie JavaScript qui p
 
 Je développe actuellement la partie "Créer mon programme" à l'aide de cette librairie.
 
-Dorian PELLETIER.
+Dorian
